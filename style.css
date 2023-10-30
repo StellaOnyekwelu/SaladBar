@@ -1,0 +1,510 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffde9;
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 76.34px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.salad_menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+
+}
+
+.menu_children {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    font-family: poppins;
+}
+
+.menu_children:hover {
+    border: 2px solid #1A5D1A;
+    /* border-color: #1A5D1A; */
+    padding: 10px 16px;
+    border-radius: 16px;
+    color: green;
+}
+
+.menu_icon1,
+.menu_icon2 {
+    width: 30px;
+    height: 30px;
+}
+
+.menu_icon3 {
+    width: 48px;
+    height: 48px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero_sect {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sect_hero1 {
+    width: 55%;
+
+}
+
+.h_child {
+    font-size: 72px;
+    font-family: poppins;
+    font-weight: 700;
+    line-height: 108px;
+    color: #1A5D1A;
+    width: 640px;
+}
+
+#best {
+    color: rgba(103, 203, 103, 1);
+
+}
+
+#best2 {
+    color: rgba(241, 201, 59, 1);
+}
+
+.p_child {
+    font-size: 20px;
+    font-family: poppins;
+    line-height: 30px;
+    font-weight: 500;
+    width: 640px;
+}
+
+.sect_hero2 {
+    width: 45%;
+}
+
+.sect2_img {
+    width: 570px;
+    margin-top: 30px;
+}
+
+#link-next {
+    color: white;
+    background-color: #1A5D1A;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border-color: white white #ffd12d;
+}
+
+
+#next-icon {
+    color: #1A5D1A;
+    border: none ! important;
+    background: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.15px;
+    text-align: center;
+}
+
+.serv {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.serv_head {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-family: poppins;
+}
+
+.serv_p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}
+
+.minor_parent {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.minor_img {
+    width: 280px;
+    height: 280px;
+}
+
+.minor_price {
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.food_sec {
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food_menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    width: 90%;
+    padding-left: 50px;
+}
+
+#active-menu {
+    color: white;
+    background-color: #1A5D1A;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border-color: white white #ffd12d;
+}
+
+.food-lists {   
+    border-radius: 20px;
+    width: 170px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border: 1px solid #1A5D1A;
+    color: green;
+    background-color: transparent;
+}
+
+.food-lists-4, .food-lists-5, .food-lists-6 {   
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border: 1px solid #1A5D1A;
+    color: green;
+    background-color: transparent;
+}
+
+.food-lists-7 {   
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border: 1px solid #1A5D1A;
+    color: green;
+    background-color: transparent;
+}
+
+.img-grid{
+display: flex;
+width: 80%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-inline: 30px;
+    width:500px;
+    height:240px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width:250px;
+    height:240px;
+}
+
+.bar {
+    width: 640px;
+    height: 5px;
+    background-color: #D9D9D9;
+    /* margin-bottom: 20px; */
+    margin: 0 auto 20px auto;
+    margin-block: 50px;
+}
+
+.bar_span {
+    width: 100px;
+    height: 5px;
+    background-color: green;
+}
+
+#reserve {
+    font-family: Poppins;
+    text-align: center;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#reserve_child {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my_form {
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ema {
+    width: 97%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+
+.FN {
+    width: 48%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.LN {
+    width: 48%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-left: 18px;
+}
+
+#fullname {
+    padding-top: 20px;
+}
+
+.Fone-no {
+    width: 99%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#Fone-no {
+    padding-top: 20px;
+}
+
+#textA {
+    padding-block: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 99%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+#form-button {
+    color: white;
+    background-color: #1A5D1A;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border: 1px solid #1A5D1A;
+    /* margin: 0 auto; */
+    margin-block: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#button-connect {
+    width: 320px;
+    height: 50px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+}
+
+.social-icons {
+    color: #fefefe;
+}
+
+.h2-foot {
+    font-family: Rock Salt;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+email {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #fefefe;
+}
+
+.nav-copy {
+    color: #fefefe;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.menu_lists {
+    color: #fefefe;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.p-copy {
+    margin-left: 600px;
+}
+
+.foot_sect {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fefefe;
+}
+
+.sect_foot1 {
+    width: 55%;
+    padding-left: 40px;
+}
+
+.sect_foot2 {
+    width: 45%;
+    padding-top: 30px;
+}
+
+.child {
+    display: inline-block;
+    padding: 1rem 0.2rem;
+    vertical-align: middle;
+}
+
+.child-2 {
+    display: inline-block;
+    padding: 1rem 0.2rem;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.Socials {
+    display: inline-block;
+    padding: 1rem 0.2rem;
+    vertical-align: middle;
+}
+
+.social-img {
+    display: inline-block;
+    padding: 1rem 0.2rem;
+    vertical-align: middle;
+
+}
